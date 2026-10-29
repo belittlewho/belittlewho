@@ -1,6 +1,6 @@
 # Humphrey Wills Tay
 
-**Software · embedded Linux (Buildroot/Yocto) · network engineering · security research**
+**Software · shell scripting · embedded Linux (Buildroot/Yocto) · networking · security research**
 
 Commerce @ Askden Ghana · Production tech @ **Voltic (Golden Rains LTD.)** · Open curricula on GitHub
 
@@ -29,6 +29,15 @@ Commerce @ Askden Ghana · Production tech @ **Voltic (Golden Rains LTD.)** · O
 **Tools:** Burp · ZAP · Semgrep · CodeQL · Trivy · gitleaks · Syft/SBOM · Wireshark · tcpdump · nmap · nuclei (scoped)
 
 **Ethics:** authorized testing only · coordinated disclosure · proportionate PoCs
+
+</details>
+
+<details>
+<summary><strong>Shell scripting</strong> — Bash / POSIX automation</summary>
+
+**Bash & sh:** `set -euo pipefail` · functions · traps · args/env · CI-safe exits  
+**Tools:** grep · sed · awk · find · xargs · curl · shellcheck  
+**Use:** deploy/rollback · backups · Buildroot/Yocto release scripts · network smoke tests · security scan wrappers
 
 </details>
 
@@ -70,7 +79,7 @@ Risk communication · incident writing · runbooks/RTM/ADRs · requirements elic
 
 ## Stack (quick)
 
-`TypeScript` `Next.js` `Medusa` `Python` `PostgreSQL` `Docker` `Linux` `Buildroot` `Yocto` `FreeRTOS` `Terraform` `AWS/Vercel/Render` `Wireshark` `Burp`
+`TypeScript` `Next.js` `Medusa` `Python` `Bash` `awk/sed` `PostgreSQL` `Docker` `Linux` `Buildroot` `Yocto` `FreeRTOS` `Terraform` `AWS/Vercel/Render` `Wireshark` `Burp`
 
 ---
 

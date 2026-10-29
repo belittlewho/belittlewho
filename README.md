@@ -4,7 +4,7 @@
 
 Commerce @ Askden Ghana · Production tech @ **Voltic (Golden Rains LTD.)** · Open curricula on GitHub
 
-**[Full portfolio →](https://belittlewho.github.io)** · [Embedded](https://belittlewho.github.io/#embedded) · [Networking](https://belittlewho.github.io/#networking) · [Security](https://belittlewho.github.io/#security) · [Soft skills](https://belittlewho.github.io/#softskills)
+**[Full portfolio →](https://belittlewho.github.io)** · [Tools](https://belittlewho.github.io/#tooling) · [Embedded](https://belittlewho.github.io/#embedded) · [Security](https://belittlewho.github.io/#security)
 
 ---
 
@@ -29,6 +29,15 @@ Commerce @ Askden Ghana · Production tech @ **Voltic (Golden Rains LTD.)** · O
 **Tools:** Burp · ZAP · Semgrep · CodeQL · Trivy · gitleaks · Syft/SBOM · Wireshark · tcpdump · nmap · nuclei (scoped)
 
 **Ethics:** authorized testing only · coordinated disclosure · proportionate PoCs
+
+</details>
+
+<details>
+<summary><strong>Tools &amp; workflow</strong> — Neovim · tmux · CLI</summary>
+
+**Editor/term:** Neovim (LSP, Treesitter) · tmux · zsh  
+**CLI:** git · gh · ripgrep · fd · fzf · bat · eza · jq · lazygit · delta  
+**Ops:** Docker · mise/direnv · Terraform · Ansible · Wireshark · Burp/ZAP · GDB/OpenOCD
 
 </details>
 
@@ -79,7 +88,7 @@ Risk communication · incident writing · runbooks/RTM/ADRs · requirements elic
 
 ## Stack (quick)
 
-`TypeScript` `Next.js` `Medusa` `Python` `Bash` `awk/sed` `PostgreSQL` `Docker` `Linux` `Buildroot` `Yocto` `FreeRTOS` `Terraform` `AWS/Vercel/Render` `Wireshark` `Burp`
+`Neovim` `tmux` `TypeScript` `Medusa` `Bash` `Buildroot` `Yocto` `Linux` `Terraform` `rg/fzf` `gh` `Wireshark` `Burp`
 
 ---
 

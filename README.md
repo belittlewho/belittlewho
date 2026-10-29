@@ -1,72 +1,83 @@
 # Humphrey Wills Tay
 
-**Software, embedded systems & security research** — commerce platforms, Voltic Cool Pac (Golden Rains LTD.), firmware, DevSecOps, and open learning guides.
+**Software · embedded Linux (Buildroot/Yocto) · network engineering · security research**
 
-[Portfolio →](https://belittlewho.github.io)
+Commerce @ Askden Ghana · Production tech @ **Voltic (Golden Rains LTD.)** · Open curricula on GitHub
+
+**[Full portfolio →](https://belittlewho.github.io)** · [Embedded](https://belittlewho.github.io/#embedded) · [Networking](https://belittlewho.github.io/#networking) · [Security](https://belittlewho.github.io/#security) · [Soft skills](https://belittlewho.github.io/#softskills)
 
 ---
 
 ## Now
 
-**Askden Ghana** — Medusa 2 backend, B2C/B2B Next.js storefronts, payments, warehouse workflows.  
-[shop.askdengh.com](https://shop.askdengh.com) · [trade.askdengh.com](https://trade.askdengh.com)
-
-**Voltic (Golden Rains LTD.)** — Voltic Ghana **Cool Pac** franchise; bagged drinking water production + **embedded systems** (control, sensing, line automation).
-
----
-
-## Security research
-
-Web/app vuln analysis · **OWASP**-aligned review · API & auth abuse cases · **Linux/cloud** hardening · **SAST/SCA/DAST** · container & **SBOM** scanning · **threat modeling (STRIDE)** · **responsible disclosure** · embedded/OT surface (firmware, serial/Modbus)
-
-Tools: `Burp` · `OWASP ZAP` · `Semgrep` · `Trivy` · `gitleaks` · `Wireshark`
+| | |
+|--|--|
+| **Askden Ghana** | Medusa 2 · B2C/B2B Next.js · [shop](https://shop.askdengh.com) · [trade](https://trade.askdengh.com) |
+| **Voltic (Golden Rains LTD.)** | Cool Pac franchise · embedded/OT · plant networking |
 
 ---
 
-## Embedded systems
+<details open>
+<summary><strong>Security research</strong> (comprehensive — <a href="https://belittlewho.github.io/#security">on site</a>)</summary>
 
-`Embedded C/C++` · `STM32` · `ESP32` · `FreeRTOS` · `UART/I2C/SPI` · `GPIO/PWM/ADC` · `Sensors & actuators` · `Modbus/serial OT` · `JTAG/SWD` · `Python test jigs`
+**Method:** scope → recon → STRIDE threat model → vuln analysis → PoC → remediate → disclosure → postmortem
+
+**Domains:** OWASP web/API · cloud/IAM/K8s/CI · network segmentation & wireless · embedded/OT/firmware · Buildroot/Yocto supply chain
+
+**Classes:** injection · auth/session/JWT · IDOR · SSRF · misconfig · secrets · logic flaws · default creds · unsigned firmware · TLS/DNS issues
+
+**Tools:** Burp · ZAP · Semgrep · CodeQL · Trivy · gitleaks · Syft/SBOM · Wireshark · tcpdump · nmap · nuclei (scoped)
+
+**Ethics:** authorized testing only · coordinated disclosure · proportionate PoCs
+
+</details>
+
+<details>
+<summary><strong>Embedded systems</strong> — MCU + Buildroot + Yocto</summary>
+
+**MCU:** C/C++ · STM32 · ESP32 · FreeRTOS · UART/I2C/SPI/CAN · Modbus · JTAG/SWD · bootloaders
+
+**Buildroot:** menuconfig · BR2_EXTERNAL · rootfs/toolchain/kernel · legal-info · field images
+
+**Yocto:** layers · recipes/bitbake · machines/distros · IMAGE_FEATURES · SDK · OTA awareness (RAUC/Mender)
+
+</details>
+
+<details>
+<summary><strong>Network engineering</strong></summary>
+
+L2 VLAN/STP · L3 IPv4/IPv6/subnets/routing · DNS/DHCP/TLS · firewalls (ufw/nftables/cloud SG) · VPN (WireGuard) · nginx/CDN · troubleshooting (tcpdump, Wireshark, mtr, iperf3) · OT segmentation patterns
+
+</details>
+
+<details>
+<summary><strong>Soft skills</strong></summary>
+
+Risk communication · incident writing · runbooks/RTM/ADRs · requirements elicitation · cross-functional (dev/ops/plant) · mentoring (open guides) · prioritization & ownership · ethical security · OT safety awareness
+
+</details>
 
 ---
 
-## Open guides (read free on GitHub)
+## Open guides
 
-| Guide | What it covers |
-|-------|----------------|
-| [solo-devops-devsecops](https://github.com/belittlewho/solo-devops-devsecops) | DevOps & DevSecOps — Linux, CI/CD, IaC, DAST, supply chain, IR |
-| [solo-software-project-management](https://github.com/belittlewho/solo-software-project-management) | Requirements, breakdown, traceability matrices, solo delivery |
-
----
-
-## Stack (software)
-
-`TypeScript` · `Node.js` · `Next.js` · `React` · `Medusa` · `Python` · `Docker` · `Linux` · `PostgreSQL` · `GitHub Actions` · `Terraform` · `AWS/Vercel/Render`
+| Repo | Topics |
+|------|--------|
+| [solo-devops-devsecops](https://github.com/belittlewho/solo-devops-devsecops) | Linux, networking, CI/CD, IaC, K8s, observability, **DevSecOps depth** |
+| [solo-software-project-management](https://github.com/belittlewho/solo-software-project-management) | Requirements, RTM, breakdown, delivery |
 
 ---
 
-## Selected work
+## Stack (quick)
 
-| Project | Notes |
-|---------|--------|
-| **Askden Litecrete** | Private monorepo @ [ASKDEN-LITECRETE](https://github.com/ASKDEN-LITECRETE) — contributor |
-| **Voltic — Golden Rains LTD.** | Cool Pac franchise · embedded & production systems |
-| **theometro** | Private — JavaScript application (active) |
-| **nxjspro** | Next.js App Router learning / dashboard starter |
-
----
-
-## GitHub stats
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=belittlewho&show_icons=true&theme=radical&hide_border=true)
-
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=belittlewho&layout=compact&theme=radical&hide_border=true)
+`TypeScript` `Next.js` `Medusa` `Python` `PostgreSQL` `Docker` `Linux` `Buildroot` `Yocto` `FreeRTOS` `Terraform` `AWS/Vercel/Render` `Wireshark` `Burp`
 
 ---
 
 ## Contact
 
-- **Site:** [belittlewho.github.io](https://belittlewho.github.io)
-- **GitHub:** [@belittlewho](https://github.com/belittlewho)
-- **Email:** [askdenlitecrete@gmail.com](mailto:askdenlitecrete@gmail.com)
+📧 [askdenlitecrete@gmail.com](mailto:askdenlitecrete@gmail.com) · 🌐 [belittlewho.github.io](https://belittlewho.github.io) · GitHub [@belittlewho](https://github.com/belittlewho)
 
-*Open to security research, embedded firmware, commerce, plant/OT software, and platform engineering.*
+---
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=belittlewho&show_icons=true&theme=radical&hide_border=true)

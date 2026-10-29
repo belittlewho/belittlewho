@@ -1,10 +1,10 @@
 # Humphrey Wills Tay
 
-**Software · shell scripting · embedded Linux (Buildroot/Yocto) · networking · security research**
+**Software engineering · embedded systems engineering · embedded systems software engineering · security research**
 
 Commerce @ Askden Ghana · Production tech @ **Voltic (Golden Rains LTD.)** · Open curricula on GitHub
 
-**[Full portfolio →](https://belittlewho.github.io)** · [Tools](https://belittlewho.github.io/#tooling) · [Embedded](https://belittlewho.github.io/#embedded) · [Security](https://belittlewho.github.io/#security)
+**[Full portfolio →](https://belittlewho.github.io)** · [Software](https://belittlewho.github.io/#software-engineering) · [Emb. systems](https://belittlewho.github.io/#embedded-systems) · [Emb. software](https://belittlewho.github.io/#embedded-software) · [Security](https://belittlewho.github.io/#security) · [Tools](https://belittlewho.github.io/#tooling)
 
 ---
 
@@ -51,13 +51,29 @@ Commerce @ Askden Ghana · Production tech @ **Voltic (Golden Rains LTD.)** · O
 </details>
 
 <details>
-<summary><strong>Embedded systems</strong> — MCU + Buildroot + Yocto</summary>
+<summary><strong>Software engineering</strong> — <a href="https://belittlewho.github.io/#software-engineering">on site</a></summary>
 
-**MCU:** C/C++ · STM32 · ESP32 · FreeRTOS · UART/I2C/SPI/CAN · Modbus · JTAG/SWD · bootloaders
+TypeScript/Node · Next.js · Medusa 2 · PostgreSQL · REST/webhooks · CI/CD · requirements/RTM · Askden storefronts
+
+Shell: Bash/POSIX · deploy/backup/smoke · shellcheck in CI
+
+</details>
+
+<details>
+<summary><strong>Embedded systems engineering</strong> — MCU / hardware — <a href="https://belittlewho.github.io/#embedded-systems">on site</a></summary>
+
+**MCU:** C/C++ · STM32 · ESP32 · FreeRTOS · UART/I2C/SPI/CAN · Modbus · JTAG/SWD · bootloaders · plant I/O
+
+</details>
+
+<details>
+<summary><strong>Embedded systems software engineering</strong> — Linux on device — <a href="https://belittlewho.github.io/#embedded-software">on site</a></summary>
 
 **Buildroot:** menuconfig · BR2_EXTERNAL · rootfs/toolchain/kernel · legal-info · field images
 
-**Yocto:** layers · recipes/bitbake · machines/distros · IMAGE_FEATURES · SDK · OTA awareness (RAUC/Mender)
+**Yocto:** layers · recipes/bitbake · machines/distros · IMAGE_FEATURES · SDK · OTA (RAUC/Mender)
+
+**Userland:** systemd services · IPC/MQTT · cross-compile/SDK · DT/drivers · hardening & OTA
 
 </details>
 
